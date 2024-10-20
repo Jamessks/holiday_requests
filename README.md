@@ -6,6 +6,7 @@
 - **MySQL**: Ensure you have a running MySQL server.
 - **Composer**: Dependency manager for PHP.
 - **Online Connection**: Required for certain CDN packages.
+- **Javascript enabled**: Required for JS scripting.
 
 ## Deployment Instructions
 
