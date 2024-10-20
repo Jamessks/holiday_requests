@@ -53,4 +53,33 @@ These users and credentials and their respective roles and permissions have been
 
 Other than that the project is doing what is expected as per the requirements.
 
-Please let me know if you encounter any problems. Thank you.
+**Employee Journey**
+
+Employee may: View their own holiday requests
+
+Employee may: Create their own holiday requests
+
+Employee may: Cancel their own holiday requests
+
+Employee may: Log out
+
+
+**Manager Journey**
+
+Manager may: View users table
+
+Manager may: Create users
+
+Manager may: Edit users
+
+Manager may: Delete users
+
+Manager may: View Holiday Requests
+
+Manager may: Manage Holiday Requests
+
+Manager may: Receive Live Notifications
+
+Manager may: Log out
+
+**And that's it!**
