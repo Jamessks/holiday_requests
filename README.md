@@ -22,7 +22,7 @@ or just download it as a zip file and place it in the directory of your choice.
 
 3. **Configure Environment Variables**: From the project root, make a copy of the .env.example file and rename it to .env.
 
-4. **Database Configuration**: Fill out the different fields in the .env file to match your MySQL database settings. IMPORTANT: The ```DB_NAME``` should be set to epignosis-site.
+4. **Database Configuration**: Fill out the different fields in the .env file to match your MySQL database settings. IMPORTANT: The ```DB_NAME``` should be set to ```epignosis-site```.
 5. **Install Dependencies**: Run the following command to install the necessary dependencies: ```composer install```
 6. **Navigate to the Public Folder**: Change to the public directory: ```cd public```
 7. **Run the Local PHP Server**: Start the PHP server with: ```php -S localhost:8080``` or use any free port depending on what is available to you.
