@@ -1,0 +1,26 @@
+{
+    "name": "dsteiak/epignosis-project",
+    "authors": [
+        {
+            "name": "Dimitris Stiakakis",
+            "email": "example@example.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
