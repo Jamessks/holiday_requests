@@ -28,7 +28,7 @@ or just download it as a zip file and place it in the directory of your choice.
 7. **Run the Local PHP Server**: Start the PHP server with: ```php -S localhost:8080``` or use any free port depending on what is available to you.
 8. **Done!**: You can now access the project at http://localhost:8080
 
-PS: run tests using
+PS: run tests from project root using
 ```
 vendor/bin/pest  tests/Unit/ValidatorTest.php 
 ```
