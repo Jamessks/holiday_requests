@@ -28,6 +28,12 @@ or just download it as a zip file and place it in the directory of your choice.
 7. **Run the Local PHP Server**: Start the PHP server with: ```php -S localhost:8080``` or use any free port depending on what is available to you.
 8. **Done!**: You can now access the project at http://localhost:8080
 
+PS: run tests using
+```
+vendor/bin/pest  tests/Unit/ValidatorTest.php 
+```
+from the CLI
+
 **User Journey**
 ===================
 As a guest you may only login or visit non important pages such as about, contact.
@@ -42,7 +48,7 @@ If you would like to login as a **employee** role use these credentials:
 ```
 username: employee1
 password: password
-
+```
 These users and credentials and their respective roles and permissions have been set by default during the db import
 
 Other than that the project is doing what is expected as per the requirements.
