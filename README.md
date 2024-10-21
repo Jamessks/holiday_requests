@@ -18,7 +18,7 @@ Follow these steps to set up the project locally:
    ```
 or just download it as a zip file and extract it in the directory of your choice.
 
-2. **Import the Database**: Create a database called 'epignosis_site' and in that database, import the db.sql file, which is located in the project's root. Once it has been imported you can delete it to free up space, or even keep it for backup just in case. This will create the epignosis_site database along with its tables and some initial data.
+2. **Import the Database**: Create a database called 'epignosis_site' and in that database, import the db.sql file, which is located in the project's root. Once it has been imported you can delete it to free up space, or even keep it for backup just in case.
 
 3. **Configure Environment Variables**: From the project root, make a copy of the .env.example file and rename it to .env.
 
