@@ -16,7 +16,7 @@ Follow these steps to set up the project locally:
    ```bash
    git clone git@github.com:Jamessks/epig_assessment.git
    ```
-or just download it as a zip file and place it in the directory of your choice.
+or just download it as a zip file and extract it in the directory of your choice.
 
 2. **Import the Database**: Import the db.sql file into your MySQL server which is located in the project's root. Once it has been imported you can delete it to free up space, or even keep it for backup just in case. This will create the epignosis_site database along with its tables and some initial data.
 
