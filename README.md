@@ -1,4 +1,4 @@
-# Epig Assessment Project
+# Holiday Requests Project
 
 ## Basic Requirements
 
