@@ -36,6 +36,7 @@ from the CLI
 
 **User Journey**
 ===================
+The project includes a custom RBAC (role-based authentication access) system which provides different roles and their respective permissions to users.
 As a guest you may only login or visit non important pages such as about, contact.
 
 If you would like to login as a **manager** role use these credentials:
@@ -49,9 +50,7 @@ If you would like to login as a **employee** role use these credentials:
 username: employee1
 password: password
 ```
-These users and credentials and their respective roles and permissions have been set by default during the db import
-
-Other than that the project is doing what is expected as per the requirements.
+These users' credentials and their respective roles and permissions have been set by default during the db import.
 
 **Employee Journey**
 
@@ -78,6 +77,6 @@ Manager may: View Holiday Requests
 
 Manager may: Manage Holiday Requests
 
-Manager may: Receive Live Notifications
+Manager may: Receive Live Notifications (via AJAX polling)
 
 Manager may: Log out
