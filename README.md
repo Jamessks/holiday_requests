@@ -14,7 +14,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone git@github.com:Jamessks/epig_assessment.git
+   git@github.com:Jamessks/holiday_requests.git
    ```
 or just download it as a zip file and extract it in the directory of your choice.
 
