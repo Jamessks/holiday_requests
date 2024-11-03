@@ -18,11 +18,11 @@ Follow these steps to set up the project locally:
    ```
 or just download it as a zip file and extract it in the directory of your choice.
 
-2. **Import the Database**: Create a database called 'epignosis_site' and in that database, import the db.sql file, which is located in the project's root. Once it has been imported you can delete it to free up space, or even keep it for backup just in case.
+2. **Import the Database**: Create a database called 'your_preferred_db_name' and in that database, import the db.sql file, which is located in the project's root. Once it has been imported you can delete it to free up space, or even keep it for backup just in case.
 
 3. **Configure Environment Variables**: From the project root, make a copy of the .env.example file and rename it to .env.
 
-4. **Database Configuration**: Fill out the different fields in the .env file to match your MySQL database settings. IMPORTANT: The ```DB_NAME``` should be set to ```epignosis_site```.
+4. **Database Configuration**: Fill out the different fields in the .env file to match your MySQL database settings. IMPORTANT: The ```DB_NAME``` should be set to ```the_same_db_name_as_in_step_2```.
 5. **Install Dependencies**: Run the following command to install the necessary dependencies: ```composer install```
 6. **Navigate to the Public Folder**: Change to the public directory: ```cd public```
 7. **Run the Local PHP Server**: Start the PHP server with: ```php -S localhost:8080``` or use any free port depending on what is available to you.
@@ -81,5 +81,3 @@ Manager may: Manage Holiday Requests
 Manager may: Receive Live Notifications
 
 Manager may: Log out
-
-**And that's it!**
